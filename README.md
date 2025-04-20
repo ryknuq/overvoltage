@@ -8,6 +8,10 @@
   <img src="https://img.shields.io/github/license/ryknuq/overvoltage-v2?style=for-the-badge">
 </p>
 
+[<p align="center">
+  
+</p>](https://raw.githubusercontent.com/ryknuq/overvoltage/refs/heads/main/overvoltage.lua)
+
 ---
 
 ## 🚀 Overview
