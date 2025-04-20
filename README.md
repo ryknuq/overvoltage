@@ -9,8 +9,8 @@
 </p>
 
 <p align="center">
-  <a href="loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()">
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+  <a href="loadstring(game:HttpGet("https://raw.githubusercontent.com/ryknuq/overvoltage/refs/heads/main/overvoltage.lua"))()">
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ryknuq/overvoltage/refs/heads/main/overvoltage.lua"))()
   </a>
 </p>
 ---
