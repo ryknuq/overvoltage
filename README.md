@@ -5,11 +5,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Roblox-ESP%20%7C%20Aimbot-blue?style=for-the-badge&logo=roblox" alt="Roblox ESP | Aimbot">
   <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge">
-  <img src="https://img.shields.io/github/license/yourusername/overvoltage-v2?style=for-the-badge">
-</p>
-
-<p align="center">
-  <img src="https://i.imgur.com/your-screenshot.png" alt="Overvoltage v2 Screenshot" width="600"/>
+  <img src="https://img.shields.io/github/license/ryknuq/overvoltage-v2?style=for-the-badge">
 </p>
 
 ---
@@ -26,7 +22,6 @@
   - Smooth, customizable cursor lock to enemy heads  
   - Smoothing slider and toggle for easy control  
   - Only targets alive enemies  
-  - Works with custom model/part names
 
 - 👁️ **ESP/Chams**  
   - Highlight enemy models and their heads  
@@ -40,7 +35,7 @@
 
 - ⚡ **Performance Optimized**  
   - Efficient target scanning  
-  - Minimal impact on game performance
+  - Minimal impact on FPS
 
 
 ## 🛡️ Disclaimer
