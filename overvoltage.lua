@@ -1,5 +1,13 @@
-
---!optimize 2
+local function isValidNPC(model)
+    if model:IsA("Model") and model.Name == "Male" then
+        for _, child in ipairs(model:GetChildren()) do
+            if child:IsA("Model") and child.Name:sub(1, 3) == "AI_" then
+                return true
+            end
+        end
+    end
+    return false
+end
 
 -- === ESP CONSTANTS ===
 local ESP_CONSTANTS = {
@@ -479,7 +487,8 @@ local function scanForRemovals(cachedWorkspaceChildren)
     local workspaceChildren = cachedWorkspaceChildren or Workspace:GetChildren()
     local foundModels = {}
     for _, instance in ipairs(workspaceChildren) do
-        if instance:IsA("Model") and instance.Name == ESP_CONSTANTS.TARGET_PARENT_MODEL_NAME then
+       -- if instance:IsA("Model") and instance.Name == ESP_CONSTANTS.TARGET_PARENT_MODEL_NAME then
+       if isValidNPC(instance) then
             local model = instance
             local dataTable = activeTargets[model] or {}
             if isRemovalEnabled(ESP_CONSTANTS.REMOVAL_TYPES.HIDE_CHILD_MODELS) then
@@ -623,7 +632,8 @@ local function scanForCombinedESPTargets(cachedWorkspaceChildren, cachedDescenda
     local foundInScan = {}
     local workspaceChildren = cachedWorkspaceChildren or Workspace:GetChildren()
     for _, instance in ipairs(workspaceChildren) do
-        if instance:IsA("Model") and instance.Name == ESP_CONSTANTS.TARGET_PARENT_MODEL_NAME then
+       --if instance:IsA("Model") and instance.Name == ESP_CONSTANTS.TARGET_PARENT_MODEL_NAME then 
+       if isValidNPC(instance) then
             local model = instance; local dataTable = activeTargets[model] or { HiddenChildParts = {}, HiddenHeadDecals = {} }
             local headPart = model:FindFirstChild(ESP_CONSTANTS.TARGET_HEAD_PART_NAME)
             if headPart and headPart:IsA("BasePart") then
@@ -1178,7 +1188,7 @@ local function getClosestESPHead(wallCheck)
     local closestDist = math.huge
     local screenCenter = Vector2.new(Camera.ViewportSize.X / 2, Camera.ViewportSize.Y / 2)
     for _, model in ipairs(Workspace:GetChildren()) do
-        if model:IsA("Model") and model.Name == ESP_CONSTANTS.TARGET_PARENT_MODEL_NAME and model.Parent and isAlive(model) then
+        if isValidNPC(model) and isAlive(model) then
             local head = model:FindFirstChild(ESP_CONSTANTS.TARGET_HEAD_PART_NAME)
             if head and head:IsA("BasePart") then
                 local screenPos, onScreen = Camera:WorldToViewportPoint(head.Position)
