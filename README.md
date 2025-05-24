@@ -52,7 +52,7 @@ Now work on PVE
 ---
 
 ## 🙏 Credits
-- **Original Script** [rych](https://github.com/ryknuq/overvoltage/)
+- **Original Script** [rych/overvoltage](https://github.com/ryknuq/overvoltage/)
 - **Original Script Author:** [rych](https://github.com/ryknuq)
 - **UI Library:** [TokyoLib](https://github.com/drillygzzly/Roblox-UI-Libs)
 - **Contributors:**  
