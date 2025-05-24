@@ -9,15 +9,15 @@
 </p>
 
 <p align="center">
-  <a href="loadstring(game:HttpGet("https://raw.githubusercontent.com/ryknuq/overvoltage/refs/heads/main/overvoltage.lua"))()">
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ryknuq/overvoltage/refs/heads/main/overvoltage.lua"))()
+  <a href="loadstring(game:HttpGet("https://raw.githubusercontent.com/HiIxX0Dexter0XxIiH/PVE-Overvolatage/refs/heads/main/overvoltage.lua"))()">
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/HiIxX0Dexter0XxIiH/PVE-Overvolatage/refs/heads/main/overvoltage.lua"))()
   </a>
 </p>
 ---
 
 ## 🚀 Overview
 
-**Overvoltage v2** is a powerful, modular Lua script for Roblox that brings advanced ESP (Extra Sensory Perception) and Aimbot features to your games. Designed for performance, customization, and ease of use, Overvoltage v2 is the ultimate tool for gaining a tactical advantage.
+Now work on PVE
 
 ---
 
@@ -52,20 +52,9 @@
 ---
 
 ## 🙏 Credits
-
-- **Script Author:** [rych](https://github.com/ryknuq)
+- **Original Script** [rych](https://github.com/ryknuq/overvoltage/)
+- **Original Script Author:** [rych](https://github.com/ryknuq)
 - **UI Library:** [TokyoLib](https://github.com/drillygzzly/Roblox-UI-Libs)
 - **Contributors:**  
   - [pxul](https://github.com/0pxul/GPT-hook)
-  - He helped finding things in Dex
-
----
-
-## ⭐ Star This Project!
-
-If you like Overvoltage v2, please consider starring the repository and sharing it with others!
-
-<p align="center">
-  <img src="https://img.shields.io/github/stars/yourusername/overvoltage-v2?style=social" alt="GitHub Stars">
-</p>
-
+  - He helped findin things in Dex
